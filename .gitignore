@@ -1,0 +1,69 @@
+### Eclipse ### 
+.classpath  
+.editorconfig  
+.factorypath  
+.gitattributes  
+.project  
+.settings/  
+bin/  
+target/
+ 
+### Maven ###
+target/
+.mvn/ 
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/angular-login-frontend/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/angular-login-frontend/.idea
+/angular-login-frontend/.project
+/angular-login-frontend/.classpath
+/angular-login-frontend/.c9/
+/angular-login-frontend/*.launch
+/angular-login-frontend/.settings/
+/angular-login-frontend/*.sublime-workspace
+
+# IDE - VSCode
+/angular-login-frontend/.vscode/*
+/angular-login-frontend/!.vscode/settings.json
+/angular-login-frontend/!.vscode/tasks.json
+/angular-login-frontend/!.vscode/launch.json
+/angular-login-frontend/!.vscode/extensions.json
+/angular-login-frontend/.history/*
+
+# misc
+/angular-login-frontend/.angular/cache
+/angular-login-frontend/.sass-cache
+/angular-login-frontend/connect.lock
+/angular-login-frontend/coverage
+/angular-login-frontend/libpeerconnection.log
+/angular-login-frontend/npm-debug.log
+/angular-login-frontend/yarn-error.log
+/angular-login-frontend/testem.log
+/angular-login-frontend/typings
+
+# System Files
+/angular-login-frontend/.DS_Store
+/angular-login-frontend/Thumbs.db
